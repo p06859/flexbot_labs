@@ -10,3 +10,10 @@ main{
     justify-content: center;
     align-items:center;
 }
+
+nav ul{
+    display: flex;/*turning the flex on or something*/
+    flex-direction:row;/*Stacking the items horizontally*/
+    gap:63px;/*creating 64px worth of space between the items. */
+    list-style-type:none;/*getting rid of the bullet points in front of the lists*/
+}
