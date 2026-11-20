@@ -24,3 +24,17 @@ nav ul{
     gap:16px;/*Making space between the items, 16 entire pixels between them*/
     list-style-type: none;/*Getting rid of the bullet points*/
 }
+
+.pane{
+    display:flex;/*flexy thing*/
+    flex-direction:row;/*horizontally*/
+}
+
+.card{
+    flex:1;/*shorthand for flex-grow:1;, flex-shrink:1;, and flex-basis(?):0;*/
+    /*Starts off at 0 width and grows and shirnks to fit space(?)(I probably should have done the other lab first*/
+}
+
+.mango{
+    width:100%; /*sets width to fix the flex container*/
+}
